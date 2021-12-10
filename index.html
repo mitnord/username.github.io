@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Play:400,700,800,900,500,600' rel='stylesheet' type='text/css'>
+    <script src="https://kit.fontawesome.com/a5f7470d8a.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Play&display=swap" rel="stylesheet">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="header">
+
+        <div class="container header__flex">
+            <div class="header__elem">
+                <div class="header__address">
+                    <img src="img/pin.svg" alt="метка">
+                    <p>г. Чебоксары, ул.Текстильщиков, дом 18, офис 329</p>
+                </div>
+
+                <div class="header__email">
+                    <img src="img/mail.svg" alt="метка">
+                    <a href="mailto:globaleco@bk.ru">globaleco@bk.ru</a>
+                </div>
+                <div class="header__phone">
+                    <img src="img/iphone 1.svg" alt="метка">
+                    <a href="tel:+79026655888">+7(902) 66-55-888</a>
+                    <p></p>
+                </div>
+                <div class="header__phone">
+                    <img src="img/iphone 1.svg" alt="метка">
+                    <a href="tel:+7853381738">+7(853) 38-17-38</a>
+                    <p></p>
+                </div>
+            </div>
+
+            <div class="header__button">
+                <label for="ch_box">
+                    <input name="ch_box" type="checkbox">
+                    <p>Заказать звонок</p>
+                </label>
+            </div>
+
+
+        </div>
+    </header>
+
+    <main>
+
+        <section class="navigation">
+            <nav class="container navigation__flex">
+                <a href="index.html">
+                    <img src="img/Логотип.svg" alt="logo">
+                </a>
+                <div class="navigation__menu">
+                    <ul>
+                        <li>
+                            <div class="navigation__brgr">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#">Каталог оборудования </a>
+                        </li>
+                        <li>
+                            <a href="#">Услуги</a>
+                        </li>
+                        <li>
+                            <a href="#">О компании</a>
+                        </li>
+                        <li>
+                            <a href="#">Документация</a>
+                        </li>
+                        <li>
+                            <a href="#">Доставка</a>
+                        </li>
+                        <li>
+                            <a href="#">Контакты</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </nav>
+
+
+            <div class="container head_promo">
+                <div class="head_promo__text">
+                    <h1>
+                        Проектирование и внедрение комплексных автоматизированных систем очистки сточных вод
+                    </h1>
+
+                    <h2>
+                        Завод-производитель канализационного, ёмкостного и очистного сооружения
+                    </h2>
+
+                    <p>
+                        Для каждого конкретного объекта компания ГлобалЭко подбирает наиболее эффективную и экономически
+                        выгодную систему водоотведения в соответствии с поставленными задачами. Это может быть, как
+                        система водоочистки для дома, поселка или города, так и установка для использования в
+                        производственных и промышленных целях
+                    </p>
+                </div>
+
+                <form class="head_promo__form" action="#">
+                    <h2>
+                        Оставьте заявку
+                    </h2>
+
+                    <label for="name">
+                        <h6>Ваше имя</h6>
+                        <input id="name" type="text" placeholder="Введите ваше имя">
+                    </label>
+                    <label for="tel">
+                        <h6>Номер телефона</h6>
+                        <input id="tel" type="tel" placeholder="+7 (___) - ___ - __ -__"
+                            pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                    </label>
+                    <label for="email">
+                        <h6>Ваш e-mail</h6>
+                        <input id="email" type="email" placeholder="explore@help.com"
+                            pattern="/^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/" required>
+                    </label>
+                    <div>
+                        <input type="checkbox" name="checkbox" id="checkbox">
+                        <label for="checkbox">Даю согласие на обработку <span><a href="">данных</a> </span></label>
+                    </div>
+
+
+                    <button>
+                        Отправить заявку
+                    </button>
+
+                </form>
+
+
+            </div>
+
+
+
+        </section>
+
+
+
+
+
+
+
+
+
+    </main>
+
+
+
+
+</body>
+
+</html>

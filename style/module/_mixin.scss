@@ -1,0 +1,30 @@
+@mixin header_p_style {
+    & p{
+        margin-left: 8px;
+        color: #FFFFFF;
+        font-family: Play;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 19px;
+        color: #FFFFFF;
+    }
+}
+@mixin header_a_style {
+    & a {
+        margin-left: 8px;
+        text-decoration: none;
+        color: #FFFFFF;
+        font-family: Play;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 19px;
+        color: #FFFFFF;
+    }
+}
+@mixin header_img_style {
+    & img{
+        margin-top: 2px;
+    }
+}
